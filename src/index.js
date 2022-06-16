@@ -60,7 +60,6 @@ function checksTodoExists(request, response, next) {
 }
 
 function findUserById(request, response, next) {
-  // Complete aqui
   const { id } = request.params;
   const user = users.find((user) => user.id === id);
 
